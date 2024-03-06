@@ -1,4 +1,4 @@
-<h1 align="center" color="pink">Ada Lovelace</h1>
+<h1 align="center">Ada Lovelace</h1>
 
 <p align="justify">Esse projeto é uma recriação do projeto criado junto ao curso do [Programaria](https://www.programaria.org/) onde podemos aprender um pouco mais da história da primeira programadora da história chamada Ada Lovelace.</p>
 
