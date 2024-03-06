@@ -2,7 +2,7 @@
 
 Esse projeto é uma recriação do projeto criado junto ao curso do [Programaria](https://www.programaria.org/) onde podemos aprender um pouco mais da história da primeira programadora da história chamada Ada Lovelace.
 
-![Preview do projeto](src\assets\README\preview.png)
+![Preview do projeto](src\assets\preview.png)
 
 ## Tecnologias
 1. Angular
