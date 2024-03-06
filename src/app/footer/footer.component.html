@@ -1,0 +1,24 @@
+<footer>
+  <h2>
+    Quer saber mais sobre outras mulheres que fizeram história na programação?
+    Deixe seu e-mail abaixo
+  </h2>
+  <form>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" #inputValue />
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" #inputValue1/>
+    <label for="phoneNumber">Telefone:</label>
+    <input
+      type="number"
+      min="1"
+      max="9"
+      placeholder="DDD + Telefone"
+      id="phoneNumber"
+      #inputValue2
+    />
+    <button (click)="authForm(inputValue.value, inputValue1.value, inputValue2.value)" [ngClass]="button">
+      Enviar
+    </button>
+  </form>
+</footer>

@@ -1,0 +1,49 @@
+<main>
+  <h2>{{ introdcution.name }}</h2>
+  <p>{{ introdcution.text }}</p>
+  <img src="{{ introdcution.image }}" alt="Pintura de Ada Lovelace" />
+  <div [ngClass]="classes[0]" id="childhood">
+    <h3>{{ childhood.name }}</h3>
+    <p>{{ childhood.text[0] }}</p>
+    <p>{{ childhood.text[1] }}</p>
+    <p>{{ childhood.text[2] }}</p>
+    <img
+      src="{{ childhood.image }}"
+      alt="Pintura de Ada Lovelace enquanto criança"
+    />
+  </div>
+  <div [ngClass]="classes[1]" id="youth">
+    <h3>{{ youth.name }}</h3>
+    <p>{{ youth.text[0] }}</p>
+    <p>{{ youth.text[1] }}</p>
+  </div>
+  <div [ngClass]="classes[2]" id="adulthood">
+    <h3>{{ adulthood.name }}</h3>
+    <p>{{ adulthood.text[0] }}</p>
+    <p>{{ adulthood.text[1] }}</p>
+    <p>{{ adulthood.text[2] }}</p>
+    <p>{{ adulthood.text[3] }}</p>
+    <img
+      src="{{ adulthood.image }}"
+      alt="Pintura de Ada jovem ao lado de uma tabela com algoritmos"
+    />
+  </div>
+
+  <div [ngClass]="classes[3]">
+    <h2>Conheça outras mulheres que fizeram história na tecnologia</h2>
+    <ul>
+      <li>
+        <a target="_blank" href="{{ grace.link }}">{{ grace.name }}</a>
+      </li>
+      <li>
+        <a target="_blank" href="{{ dorothy.link }}">{{ dorothy.name }}</a>
+      </li>
+      <li>
+        <a target="_blank" href="{{ margareth.link }}">{{ margareth.name }}</a>
+      </li>
+      <li>
+        <a target="_blank" href="{{ katherine.link }}">{{ katherine.name }}</a>
+      </li>
+    </ul>
+  </div>
+</main>
